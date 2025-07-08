@@ -15,7 +15,7 @@ public class switch_case {
                 System.out.println("The number is three");
                 break;
             default:
-                System.out.println("The number is more than three");
+                System.out.println("The number is more than three or less than one");
                 break;
         }
     }
