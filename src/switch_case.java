@@ -1,3 +1,4 @@
+//Switch Case Example
 import java.util.Scanner;
 public class switch_case {
     public static void main(String[] args) {
