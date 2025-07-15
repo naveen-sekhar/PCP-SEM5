@@ -7,6 +7,10 @@ public class setter_getter {
         SRET somu = new SRET();
         ramu.change_pin(3456);
         ramu.display_pin();
+        Cyb rujita = new Cyb();
+        rujita.uniform();
+        rujita.uniform();
+
     }
 }
 class SRET{
@@ -23,5 +27,11 @@ class SRET{
     }
     void display(){
         System.out.println(rollnumber);
+    }
+}
+class Cyb extends SRET{
+    static int sem = 8;
+    static void uniform(){
+        System.out.println("Blue & White");
     }
 }
