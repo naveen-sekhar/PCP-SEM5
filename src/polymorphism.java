@@ -1,9 +1,7 @@
 public class polymorphism {
     public static void main(String[] args){
-        Dog tommy = new Dog();
-        tommy.play();
-        tommy.food();
-        tommy.sound();
+        Dug tommys = new Dug();
+        tommys.sound();
         Cat kitty = new Cat();
         kitty.sound();
     }
@@ -20,7 +18,7 @@ abstract class Animal{
         System.out.println("All animals are unpredictable");
     }
 }
-class Dog extends Animal{
+class Dog extends Animul {
     void type(){
         System.out.println("Dogs are a domestic animal");
     }
@@ -30,8 +28,11 @@ class Dog extends Animal{
     void sound(){ //Polymorphism
         System.out.println("Dogs Bark");
     }
+
+    void pet() {
+    }
 }
-class Cat extends Animal{
+class Cat extends Animul {
     void type(){
         System.out.println("Cats are a domestic animal");
     }
