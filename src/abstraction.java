@@ -10,7 +10,7 @@ abstract class Student{
         System.out.println("Grey & Black");
     }
 }
-class cyber extends Student{
+class cyber extends Students {
     void wd(){
         System.out.println("Cyber department works everyday");
     }
